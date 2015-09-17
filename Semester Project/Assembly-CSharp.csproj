@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BasicSyntix.cs" />
+     <Compile Include="Assets\Branch.cs" />
      <Compile Include="Assets\Syntix.cs" />
      <Compile Include="Assets\Test.cs" />
      <Compile Include="Assets\VariablesAndFunctions.cs" />
