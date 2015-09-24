@@ -15,7 +15,7 @@ public class Ifstatment : MonoBehaviour
             JumpTest();
 
         HighJump -= Time.deltaTime * 5f;
-        Debug.Log(HighJump);
+        
     }
 
     void JumpTest()
@@ -23,14 +23,17 @@ public class Ifstatment : MonoBehaviour
         if (HighJump > NormalLimitJump)
         {
             print("I can fly!");
+            
         }
         else if (HighJump < LowLimitJump)
         {
             print("Who needs to jump?");
+           
         }
         else
         {
             print("eh nothing special.");
+            
         }
     }
 }
