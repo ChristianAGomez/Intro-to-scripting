@@ -45,14 +45,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BasicSyntix.cs" />
      <Compile Include="Assets\For.cs" />
-     <Compile Include="Assets\Ifstatment.cs" />
-     <Compile Include="Assets\Syntix.cs" />
-     <Compile Include="Assets\Test.cs" />
-     <Compile Include="Assets\VariablesAndFunctions.cs" />
      <Compile Include="Assets\While.cs" />
-     <Compile Include="Assets\conventionsandsyntaxpassoff.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
