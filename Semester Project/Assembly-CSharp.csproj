@@ -45,7 +45,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DoWhile.cs" />
      <Compile Include="Assets\For.cs" />
+     <Compile Include="Assets\Foreach.cs" />
      <Compile Include="Assets\While.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
