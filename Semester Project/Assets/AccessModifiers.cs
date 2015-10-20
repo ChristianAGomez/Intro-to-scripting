@@ -5,13 +5,10 @@ public class AccessModifiers : MonoBehaviour
 {
 	public int alpha = 5;
 
-
 	private int beta = 0;
 	private int gamma = 5;
 
-
 	private AnotherClass myOtherClass;
-
 
 	void Start ()
 	{
@@ -21,14 +18,12 @@ public class AccessModifiers : MonoBehaviour
 		myOtherClass.FruitMachine (alpha, myOtherClass.apples);
 	}
 
-
 	void Example (int pens, int crayons)
 	{
 		int answer;
 		answer = pens * crayons * alpha;
 		Debug.Log (answer);
 	}
-
 
 	void Update ()
 	{
