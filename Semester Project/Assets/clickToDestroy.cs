@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class clickToDestroy : MonoBehaviour {
-
-	void OnMouseDown ()
-	{
-		Destroy(gameObject);
-	}
+public class clickToDestroy : MonoBehaviour
+{
+	public int scoreValue = 1;
 }
+
