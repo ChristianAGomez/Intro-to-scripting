@@ -15,11 +15,11 @@ public class ScoreManager : MonoBehaviour
 	{
 
 		text = GetComponent <Text> ();
-		ScoreManager = 0;
+		score = 0;
 	}
 
 	void Update()
 	{
-		text.text = "Score:" + ScoreManager;
+		text.text = "Score:" + score;
 	}
 }
