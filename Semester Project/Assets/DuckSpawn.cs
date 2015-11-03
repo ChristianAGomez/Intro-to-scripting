@@ -4,15 +4,14 @@ using System.Collections;
 public class DuckSpawn : MonoBehaviour
 {
 	public GameObject Cube;
-	public float spawnTime = 3f;
+	public float spawnTime = 10f;
 	public Transform[] spawnPoints;
-	
+
 	void Start ()
 	{
 		InvokeRepeating ("Spawn", spawnTime, spawnTime);
-		GameObject.FindGameObjectWithTag ("Spawns"); 
+		GameObject.FindGameObjectWithTag ("Spawns");
 	}
-
 
 	void Spawn()
 	{
@@ -22,3 +21,4 @@ public class DuckSpawn : MonoBehaviour
 		Instantiate (Cube, spawnPoints[Spawn].position, spawnPoints[Spawn].rotation);
 	}
 }
+	
