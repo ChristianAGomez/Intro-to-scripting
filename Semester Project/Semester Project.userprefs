@@ -1,6 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\clickToDestroy.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DuckSpawn.cs">
     <Files>
       <File FileName="Assets\DuckSpawn.cs" Line="21" Column="1" />
       <File FileName="Assets\clickToDestroy.cs" Line="13" Column="2" />
