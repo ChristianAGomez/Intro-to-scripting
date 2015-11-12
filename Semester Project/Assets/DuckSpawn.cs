@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class DuckSpawn : MonoBehaviour
-{/*
+{
 	public GameObject Cube;
 	public float spawnTime = 10f;
 	public Transform[] spawnPoints;
@@ -19,5 +19,5 @@ public class DuckSpawn : MonoBehaviour
 		int Spawn = Random.Range (0, spawnPoints.Length);
 
 		Instantiate (Cube, spawnPoints[Spawn].position, spawnPoints[Spawn].rotation);
-	}*/
+	}
 }
