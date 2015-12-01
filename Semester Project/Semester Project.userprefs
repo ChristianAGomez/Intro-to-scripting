@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DuckHunt\Spawn2.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Timer.cs">
     <Files>
-      <File FileName="Assets\Menu.cs" Line="19" Column="2" />
-      <File FileName="Assets\DuckHunt\DuckSpawn.cs" Line="7" Column="2" />
-      <File FileName="Assets\DuckHunt\Spawn2.cs" Line="6" Column="2" />
+      <File FileName="Assets\Timer.cs" Line="3" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
