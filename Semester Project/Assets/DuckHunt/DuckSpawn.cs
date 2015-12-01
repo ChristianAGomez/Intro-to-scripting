@@ -4,7 +4,7 @@ using System.Collections;
 public class DuckSpawn : MonoBehaviour
 {
 	public GameObject Cube;
-	public float spawnTime = 10f;
+	public float spawnTime = 10;
 	public Transform[] spawnPoints;
 
 	void Start ()
