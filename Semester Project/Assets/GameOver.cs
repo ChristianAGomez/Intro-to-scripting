@@ -16,3 +16,6 @@ public class GameOver : MonoBehaviour
 		{
 
 			Application.LoadLevel(Application.loadedLevel);
+		}
+	}
+}
