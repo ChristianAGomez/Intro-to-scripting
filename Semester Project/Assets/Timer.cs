@@ -1,20 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 
-public class Timer : MonoBehaviour
+public class Timer : MonoBehaviour 
 {
-	public Text counterText;
+	float timeRemaining = 20;
 
-	public float seconds, minutes;
+	void Start (){
 
-	void Start () {
-		counterText = GetComponent<Texture>() as Text;
 	}
 
-	void UpDate () {
-		minutes = (int)(Time.time/60f);
-		seconds = (int)(Time.time % 60f);
-		counterText.text = minutes.ToString ("00") + ":" + seconds.ToString("00");
+	void Update ()
+	{
+		timeRemaining -= Time.deltaTime;
+	}
+
+	void OnGUI()
+	{
+		if(timeRemaining > 0)
+		{
+			GUI.Label(new Rect(100, 100, 200, 100), "Time Remaining : "+(int)timeRemaining);
+		}
+		else
+		{
+			GUI.Label(new Rect(100, 100, 100, 100), "Time's up");
+		}
 	}
 }

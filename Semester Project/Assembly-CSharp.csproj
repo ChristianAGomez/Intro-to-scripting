@@ -50,6 +50,7 @@
      <Compile Include="Assets\DuckHunt\ScoreManager.cs" />
      <Compile Include="Assets\DuckHunt\Spawn2.cs" />
      <Compile Include="Assets\DuckHunt\clickToDestroy.cs" />
+     <Compile Include="Assets\GameOver.cs" />
      <Compile Include="Assets\Menu.cs" />
      <Compile Include="Assets\Timer.cs" />
  <Reference Include="UnityEngine.UI">
