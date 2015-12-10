@@ -1,21 +1,19 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class GameOver : MonoBehaviour
 {
-	public float restartdelay = 5f
-
-		Animator Animator;
-	float restartTimer;
-
-	void Update ()
+	public Button GameOverText;
+	
+	void Start ()
 	{
-		restartTimer += Time.deltaTime;
-
-		if(restartTimer) >= restartDelay)
-		{
-
-			Application.LoadLevel(Application.loadedLevel);
-		}
+		GameOverText = GameOverText.GetComponent<Button> ();
+	}
+	
+	public void OnGUI()
+	{
+		if (GUI.Button(new Rect(140,100,130,30),"DuckHunt")){
+			Application.LoadLevel ("DuckHunt");}
 	}
 }

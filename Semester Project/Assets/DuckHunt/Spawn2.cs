@@ -10,6 +10,6 @@ public class Spawn2 : MonoBehaviour
 	{
 		Rigidbody Duckinstance;
 		Duckinstance = Instantiate (Duck, Duck.position, Duck.rotation)as Rigidbody;
-		Duckinstance.AddForce(Spawn.up*1f);
+		Duckinstance.AddForce(Spawn.up*550);
 	}
 }
