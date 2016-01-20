@@ -3,10 +3,20 @@ using System.Collections;
 
 public class Movment : MonoBehaviour
 {/*
-	public float movementSpeed = 10;
+	public Rigidbody Test;
+	public Transform TSpawn;
+	public float speed = 10f;
 
-	void Update()
+	void update()
 	{
-		transform.Translate (Vector2.up * movementSpeed * Time.deltaTime);
+		Rigidbody Duckinstance;
+		Duckinstance = Instantiate (Test, Test.position, Test.rotation)as Rigidbody;
+		Duckinstance.AddForce (TSpawn.up * 550);
+	}
+
+	void Duckfly () 
+	{
+		Rigidbody DuckClone = (Rigidbody) Instantiate(Test, transform.position, transform.rotation);
+		DuckClone.velocity = transform.forward * speed;
 	}*/
 }

@@ -6,7 +6,7 @@ public class clickToDestroy : MonoBehaviour
 	public int scoreValue = 1;
 	void Start ()
 	{
-		Destroy (gameObject, 5f);
+		Destroy (gameObject, 3f);
 	}
 	void OnMouseDown ()
 		{
