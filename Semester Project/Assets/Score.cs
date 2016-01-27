@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 public class Score : MonoBehaviour
-{
+{/*
 	public int score = 0;
 	public int highScore = 0;
 	string highScoreKey = "HighScore";
@@ -17,11 +17,12 @@ public class Score : MonoBehaviour
 		GUIText.text = "Score:" + score.ToString();
 	}
 	
-	void onDisable(){
+	void onDisable()
+	{
 		if(score>highScore)
 		{
 			PlayerPrefs.SetInt (highScoreKey, score);
 			PlayerPrefs.Save ();
 		}
-	}
+	}*/
 }

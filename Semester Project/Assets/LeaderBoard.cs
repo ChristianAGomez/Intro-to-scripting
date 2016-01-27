@@ -1,12 +1,25 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class LeaderBoard : MonoBehaviour
 {
-	public int highScore;
-	string highScoreKey = "HighScore";
-	void Start ()
+	/*public static int highscore;
+	
+	
+	
+	Text text;
+	
+	
+	void Awake ()
 	{
-		highScore = PlayerPrefs.GetInt (highScoreKey,0);
+		
+		text = GetComponent <Text> ();
+		highscore = 0;
 	}
+	
+	void Update()
+	{
+		text.text = "highScore" + Score;
+	}*/
 }

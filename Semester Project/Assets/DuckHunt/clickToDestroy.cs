@@ -11,6 +11,6 @@ public class clickToDestroy : MonoBehaviour
 	void OnMouseDown ()
 		{
 			Destroy(gameObject);
-			ScoreManager.score += scoreValue;
+		ScoreManager.score += scoreValue;
 	}
 }
