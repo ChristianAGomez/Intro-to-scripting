@@ -3,8 +3,8 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class LeaderBoard : MonoBehaviour
-{
-	/*public static int highscore;
+{/*
+	public static int highscore;
 	
 	
 	

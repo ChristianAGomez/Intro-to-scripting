@@ -46,11 +46,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DuckHunt\DuckSpawn.cs" />
+     <Compile Include="Assets\DuckHunt\Example.cs" />
      <Compile Include="Assets\DuckHunt\Movment.cs" />
      <Compile Include="Assets\DuckHunt\ScoreManager.cs" />
      <Compile Include="Assets\DuckHunt\Spawn2.cs" />
      <Compile Include="Assets\DuckHunt\clickToDestroy.cs" />
-     <Compile Include="Assets\Example.cs" />
      <Compile Include="Assets\GameOver.cs" />
      <Compile Include="Assets\LeaderBoard.cs" />
      <Compile Include="Assets\Menu.cs" />
