@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Timer : MonoBehaviour 
 {
-	float timeRemaining = 10;
+	float timeRemaining = 30;
 
 	void Start (){
 
