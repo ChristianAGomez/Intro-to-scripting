@@ -10,8 +10,8 @@ IEnumerator Start()
 	var pointA = transform.position;
 	while(true)
 	{
-		yield return StartCoroutine(MoveObject(transform, pointA, pointB, 3.0f));
-		yield return StartCoroutine(MoveObject(transform, pointB, pointA, 3.0f));
+		yield return StartCoroutine(MoveObject(transform, pointA, pointB, 3.5f));
+		yield return StartCoroutine(MoveObject(transform, pointB, pointA, 3.5f));
 	}
 }
 
