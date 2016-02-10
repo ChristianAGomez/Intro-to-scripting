@@ -52,11 +52,13 @@
      <Compile Include="Assets\DuckHunt\Spawn2.cs" />
      <Compile Include="Assets\DuckHunt\SpwanMovement.cs" />
      <Compile Include="Assets\DuckHunt\clickToDestroy.cs" />
-     <Compile Include="Assets\GameOver.cs" />
-     <Compile Include="Assets\LeaderBoard.cs" />
-     <Compile Include="Assets\Menu.cs" />
+     <Compile Include="Assets\FastBlock.cs" />
      <Compile Include="Assets\Score.cs" />
-     <Compile Include="Assets\Timer.cs" />
+     <Compile Include="Assets\Worckablecode\BlockMovment.cs" />
+     <Compile Include="Assets\Worckablecode\GameOver.cs" />
+     <Compile Include="Assets\Worckablecode\LeaderBoard.cs" />
+     <Compile Include="Assets\Worckablecode\Menu.cs" />
+     <Compile Include="Assets\Worckablecode\Timer.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
