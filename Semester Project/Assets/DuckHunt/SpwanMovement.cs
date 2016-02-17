@@ -18,12 +18,12 @@ IEnumerator Start()
 IEnumerator MoveObject(Transform thisTransform, Vector3 startPos, Vector3 endPos, float time)
 {
 	var i= 0.0f;
-	var rate= 1.0f/time;
+	var rate= 25.0f/time;
 	while(i < 1.0f)
 	{
 		i += Time.deltaTime * rate;
 		thisTransform.position = Vector3.Lerp(startPos, endPos, i);
 		yield return null;
+		}
 	}
-}
 }
