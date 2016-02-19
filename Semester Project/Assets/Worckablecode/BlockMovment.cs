@@ -10,15 +10,15 @@ public class BlockMovment : MonoBehaviour
 		var pointA = transform.position;
 		while(true)
 		{
-			yield return StartCoroutine(MoveObject(transform, pointA, pointB, 5.5f));
-			yield return StartCoroutine(MoveObject(transform, pointB, pointA, 5.5f));
+			yield return StartCoroutine(MoveObject(transform, pointA, pointB, 7.5f));
+			yield return StartCoroutine(MoveObject(transform, pointB, pointA, 7.5f));
 		}
 	}
 	
 	IEnumerator MoveObject(Transform thisTransform, Vector3 startPos, Vector3 endPos, float time)
 	{
 		var i= 0.0f;
-		var rate= 1.0f/time;
+		var rate= 5.0f/time;
 		while(i < 1.0f)
 		{
 			i += Time.deltaTime * rate;

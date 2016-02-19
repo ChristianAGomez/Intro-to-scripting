@@ -1,28 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
+
 public class Score : MonoBehaviour
 {/*
-	public int score = 0;
-	public int highScore = 0;
+	public int highScore;
 	string highScoreKey = "HighScore";
 	
-	void Start()
-	{
-		highScore = PlayerPrefs.GetInt (highScoreKey,0);
+	void Start(){
+		highScore = PlayerPrefs.GetInt(highScoreKey,0);
+		//use this value in whatever shows the leaderboard.
 	}
-	
-	void Update()
-	{
-		GUIText.text = "Score:" + score.ToString();
-	}
-	
-	void onDisable()
-	{
-		if(score>highScore)
-		{
-			PlayerPrefs.SetInt (highScoreKey, score);
-			PlayerPrefs.Save ();
-		}
-	}*/
+	*/
 }
