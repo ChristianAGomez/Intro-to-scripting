@@ -52,6 +52,7 @@
      <Compile Include="Assets\DuckHunt\SpwanMovement.cs" />
      <Compile Include="Assets\DuckHunt\clickToDestroy.cs" />
      <Compile Include="Assets\FastBlock.cs" />
+     <Compile Include="Assets\GameOver2.cs" />
      <Compile Include="Assets\HighScore.cs" />
      <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\Worckablecode\BlockMovment.cs" />

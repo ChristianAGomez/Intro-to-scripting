@@ -14,7 +14,7 @@ public class Timer : MonoBehaviour
 		timeRemaining -= Time.deltaTime;
 		if(timeRemaining <=0)
 		{
-			Application.LoadLevel("GameOver");
+			Application.LoadLevel("GameOver2");
 		}
 	}
 	void OnGUI()
