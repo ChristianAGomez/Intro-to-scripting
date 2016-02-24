@@ -3,44 +3,21 @@ using System.Collections;
 
 public class GameOver2 : MonoBehaviour
 {
-	public GUIText restartText;
-	public GUIText GameOverText;
+	public Timer;
+	public float restartDelay = 5f;
 
-	private bool GameOver;
-	private bool restart;
-	private int score;
-
-	void Start ()
-	{
-		GameOver = false;
-		restart = false;
-		restartText.text = "";
-		GameOverText.text = "";
-		Score = 0;
-		UpdateScore();
-	}
+	float restartTimer;
 
 	void Update ()
 	{
-		if (restart)
+		if(Timer.timeRemaining <=0)
 		{
-			restartText = restartText.GetComponent<Button> ();
+			restartTimer =+ Time.deltaTime;
+
+			if(restartTimer >= restartDelay)
+			{
+				Application.LoadLevel(Application.loadedLevel);
+			}
 		}
-	}
-	public void AddScore (int newScoreValue)
-	{
-		score += newScoreValue;
-		UpdateScore ();
-	}
-
-	Void UpdateScore ()
-	{
-		scoreText.text = "Score: " + score;
-	}
-
-	public void GameOver ()
-	{
-		GameOverText.text = "Game Over!";
-		GameOver = true;
 	}
 }
