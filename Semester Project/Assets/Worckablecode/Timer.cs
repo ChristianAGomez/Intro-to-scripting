@@ -3,10 +3,21 @@ using System.Collections;
 
 public class Timer : MonoBehaviour 
 {
-	float timeRemaining = 30;
+	public float timeRemaining = 30;
+	public GUIText gameOverText;
+	public GUIText MainMenuText;
+
+	private bool gameOver;
+	private bool MainMenu;
+	private int score;
 
 	void Start (){
-
+		gameOver = false;
+		MainMenu = false;
+		MainMenuText.text = "";
+		gameOverText.text = "";
+		score = 0;
+		UpdateScore ();
 	}
 
 	void Update ()
@@ -14,7 +25,7 @@ public class Timer : MonoBehaviour
 		timeRemaining -= Time.deltaTime;
 		if(timeRemaining <=0)
 		{
-			Application.LoadLevel("GameOver2");
+
 		}
 	}
 	void OnGUI()
