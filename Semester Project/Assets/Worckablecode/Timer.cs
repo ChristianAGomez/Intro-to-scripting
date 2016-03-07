@@ -3,30 +3,31 @@ using System.Collections;
 
 public class Timer : MonoBehaviour 
 {
-	public float timeRemaining = 30;
-	public GUIText gameOverText;
+	public float timeRemaining = 5;
+	//public GUIText gameOverText;
 	public float restartDelay = 5f;
 	//public GUIText MainMenuText;
 
-	private bool gameOver;
-	private bool MainMenu;
-	private int score;
+	//private bool gameOver;
+	//private bool MainMenu;
+	//private int score;
 
-	Animator anim;
+	//Animator anim;
 	float restartTimer;
 
-	void Start (){
-		gameOver = false;
-		MainMenu = false;
+	//void Start ()
+	//{
+		//gameOver = false;
+		//MainMenu = false;
 		//MainMenuText.text = "";
-		gameOverText.text = "";
-		score = 0;
-	}
+		//gameOverText.text = "";
+		//score = 0;
+	//}
 	
 	
 	void Awake ()
 	{
-		anim = GetComponent <Animator> ();
+		//anim = GetComponent <Animator> ();
 	}
 
 	void Update ()
@@ -34,11 +35,11 @@ public class Timer : MonoBehaviour
 		timeRemaining -= Time.deltaTime;
 		if(timeRemaining <=0)
 		{
-			anim.SetTrigger ("GameOver");
+			//anim.SetTrigger ("GameOver");
 			restartTimer += Time.deltaTime;
 			if(restartTimer >= restartDelay)
 			{
-				Application.LoadLevel (Application.loadedLevel);
+				Application.LoadLevel("Menu");
 			}
 		}
 	}
