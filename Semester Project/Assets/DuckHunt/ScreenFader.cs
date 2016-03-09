@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ScreenFader : MonoBehaviour
-{
+{/*
 	public GUIText gameOverText;
 	public GUIText MainMenuText;
 	
@@ -33,5 +33,5 @@ public class ScreenFader : MonoBehaviour
 		{
 			GUI.Label(new Rect(100, 100, 100, 100), "Time's up");
 		}
-	}
+	}*/
 }
