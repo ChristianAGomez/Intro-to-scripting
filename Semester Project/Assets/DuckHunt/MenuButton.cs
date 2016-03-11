@@ -13,7 +13,7 @@ public class MenuButton : MonoBehaviour
 	
 	public void OnGUI()
 	{
-		if (GUI.Button(new Rect(Screen.width/2-50, Screen.height/2-25, 100, 50),"DuckHunt")){
-			Application.LoadLevel ("DuckHunt");}
+		if (GUI.Button(new Rect(Screen.width/2-50, Screen.height/2-25, 100, 50),"Menu")){
+			Application.LoadLevel ("Menu");}
 	}
 }
