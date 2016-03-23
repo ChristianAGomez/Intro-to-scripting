@@ -1,12 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DuckHunt\MenuButton.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Worckablecode\Timer.cs">
     <Files>
-      <File FileName="Assets\Worckablecode\LeaderBoard.cs" Line="1" Column="1" />
-      <File FileName="Assets\Worckablecode\Timer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Worckablecode\GameOver.cs" Line="1" Column="1" />
-      <File FileName="Assets\DuckHunt\ScoreManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\DuckHunt\MenuButton.cs" Line="11" Column="1" />
+      <File FileName="Assets\Worckablecode\Timer.cs" Line="21" Column="3" />
+      <File FileName="Assets\DuckHunt\ScoreManager.cs" Line="25" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
