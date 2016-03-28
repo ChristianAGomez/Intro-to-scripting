@@ -4,6 +4,11 @@ using System.Collections;
 
 public class Timer : MonoBehaviour 
 {
+	void time()
+	{
+		transform.position = new Vector3(0,0,0);
+		print(transform.position.x);
+	}
 	public float timeRemaining = 30;
     private ScoreManager myOtherClass;
 
@@ -11,17 +16,20 @@ public class Timer : MonoBehaviour
 
 	void Start ()
 	{
-		FinalScore = 0;
+		GameObject Score = GameObject.Find ("Score");
+		ScoreManager scoreManager = Score.GetComponent<ScoreManager> ();
+		ScoreManager.score -= 0;
+		/*FinalScore = 0;
 
 		myOtherClass = new ScoreManager ();
-		myOtherClass.score (FinalScore, myOtherClass.Score);
+		myOtherClass.ScoreManager (FinalScore, myOtherClass.Score);*/
 	}
-
+	
 	void Update ()
 	{
 		timeRemaining -= Time.deltaTime;
 		if(timeRemaining <=0)
-			if(Score <= 1&9)
+			if(FinalScore <= 9)
 		{
 			Application.LoadLevel("Score 1-10");
 				//Application.LoadLevel("GameOver");
