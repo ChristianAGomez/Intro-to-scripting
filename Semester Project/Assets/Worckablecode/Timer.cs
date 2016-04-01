@@ -12,7 +12,7 @@ public class Timer : MonoBehaviour
 	public float timeRemaining = 30;
     private ScoreManager myOtherClass;
 
-	private int FinalScore = 0;
+	public int scoreValue = 0;
 
 	void Start ()
 	{
@@ -28,11 +28,22 @@ public class Timer : MonoBehaviour
 	void Update ()
 	{
 		timeRemaining -= Time.deltaTime;
-		if(timeRemaining <=0)
-			if(FinalScore <= 9)
+		if (timeRemaining <= 0)
+			EndScore ();
+	}
+
+	public void EndScore()
+	{
+
+		if(scoreValue >=9)
 		{
 			Application.LoadLevel("Score 1-10");
 				//Application.LoadLevel("GameOver");
+		}
+
+		else if(scoreValue >=19)
+		{
+			Application.LoadLevel ("Score 10-20");
 		}
 	}
 }
