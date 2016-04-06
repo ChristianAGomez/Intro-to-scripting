@@ -6,7 +6,7 @@ using System.Collections;
 public class ScoreManager : MonoBehaviour
 {
 	public static int score;
-	public static int scoreValue;
+	public static int FinalScore;
 
 
 	Text text;
@@ -17,13 +17,12 @@ public class ScoreManager : MonoBehaviour
 
 		text = GetComponent <Text> ();
 		score = 0;
-		scoreValue = 0;
+		FinalScore = 0;
 	}
 
 	void Update ()
 	{
 		text.text = "Score:" + score;
-		scoreValue = score;
 
 	}
 }

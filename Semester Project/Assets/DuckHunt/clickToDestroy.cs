@@ -20,6 +20,6 @@ public class clickToDestroy : MonoBehaviour
 			Destroy(gameObject);
 		ScoreManager.score += scoreValue;
 		Timer.score += scoreValue;
-		//ScoreManager.score += score;
+		ScoreManager.FinalScore += scoreValue;
 	}
 }
