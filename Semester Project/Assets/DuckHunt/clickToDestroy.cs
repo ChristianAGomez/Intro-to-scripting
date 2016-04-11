@@ -4,8 +4,9 @@ using System.Collections;
 public class clickToDestroy : MonoBehaviour
 {
 	public int scoreValue = 1;
+	public int FinalScore = 1;
 
-	public ScoreManager myOtherClass;
+	//public ScoreManager myOtherClass;
 
 	void Start ()
 	{
@@ -20,6 +21,7 @@ public class clickToDestroy : MonoBehaviour
 			Destroy(gameObject);
 		ScoreManager.score += scoreValue;
 		Timer.score += scoreValue;
+		//ScoreManager.score += FinalScore;
 		ScoreManager.FinalScore += scoreValue;
 	}
 }
